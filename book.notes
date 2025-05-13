@@ -1,0 +1,121 @@
+1. Doc String
+
+2. Varaibles
+    In python to declare variables , there are three types of conventions 
+      a. camel case sulemanShah
+      b. pascal case SulemanShah
+      c. snake case suleman_shah
+
+    Variables are use to store data of diffrent data types
+
+3. Data types
+
+   (a) NUMBERS
+
+   1. Integers
+      All the numbers including whole number , natural number , integers are of integer
+      data types basically it stores numbers
+
+      for-example : -2 , -1 , 0 , 1 , 2 
+
+   2. Floats
+      Floats are also number type but they store decimals and fraction values
+
+      for-example : 0.32 , 22.99 , 1/2 , 34/3
+      
+   3. Complex 
+      to add a imagnery value we use complex data type 
+
+      for-example : a = 34i 
+
+   (b) STRINGS 
+
+        Strings are sequence of characters (numbers , alphabet , symbols) enclosed in single or double quotes
+
+        for example a = "ali age 13 @#" 
+
+        Strings take more space than other data types ,  this is because strings store every character with their own unicode
+
+        To access the unicode we have to use ord()
+        To find letter with unicode we have to use chr()
+
+        (1) Indexing
+             indexing refers to accessing the individual elements in a sequence
+
+             syntax
+
+             a= "hello"
+             print(a[0])
+
+             output 1
+
+        (2) Slicing    
+
+        syntax print(a[1 : 1 : 8])
+
+   (c) BOOLEAN
+
+       a Boolean is a data type that represents one of two values: True or False
+
+       There are some falsy values and some truthy values
+
+       FALSY values
+       1. ''
+       2. 0
+       3. 0.0
+       4. () tuple
+       5. [] list
+       6. {} dictionary
+
+       TRUTHY values
+       all the other values are truthy
+
+4. Type Converstion
+   
+   syntax a = 2
+          print(float(0))
+
+    there are two types of conversion   
+
+    a. Implicit
+    b. Explicit    
+
+5. Input output
+  
+   we have learned from notes and tryied example of it so no need for long description
+
+   for input input() is used and for output we use print
+
+6. OPERATORS
+
+   a. Arthmatic Operator
+      addition (1 + 2)
+      subtraction (1 - 2)
+      multiplication (1 * 2)
+      division (1 / 2)
+      Floor division (1 // 2)
+      modulus (1 % 2)
+      Exponentiation (10 ** 2)
+      
+   b. Assignment Operator   
+      equals 
+
+   c. Compound Assignment Operator
+       +=
+       -=
+       *=
+       /=
+       **=   
+
+   d. Comparision Operator
+       they akkwasys provide boolean result  
+       >
+       <
+       <=
+       >=
+       ==
+       !=  
+
+       note: you can only campare values of same data type only
+
+   e. Logical Operator
