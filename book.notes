@@ -101,21 +101,50 @@
       equals 
 
    c. Compound Assignment Operator
-       +=
-       -=
-       *=
-       /=
-       **=   
+       "+="
+       "-="
+       "*="
+       "/="
+       "**="   
 
    d. Comparision Operator
        they akkwasys provide boolean result  
-       >
-       <
-       <=
-       >=
-       ==
-       !=  
+       ">"
+       "<"
+       "<="
+       ">="
+       "=="
+       " != " 
 
        note: you can only campare values of same data type only
 
    e. Logical Operator
+
+      ADD "and" & if all conditions are true give ture otherwise false
+      OR "or" if any condition is true give output true 
+      NOT
+
+7. Condional Rendering
+  
+   a. if
+   b. if-eles
+   c. if-elif-else
+
+   First problem
+
+   firstNumber = int(input("Enter first number :"))
+   secondNumber = int(input("Enter second number :"))
+
+   if firstNumber > secondNumber:
+    print("first number is greater than second number")
+   else:
+    print("second number is greater than 1") 
+
+8. Loops
+
+   There only two types of loops in python
+
+   a. for loops
+   b. while loops
+
+   main difference between for and while loops are in for loop we tell the loop to run till the provided condition we setup the condition but on the other hands in while loop we only tell the loop to run till the specific condition we dont provide the steps we only give the start and end point
