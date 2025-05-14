@@ -148,3 +148,22 @@
    b. while loops
 
    main difference between for and while loops are in for loop we tell the loop to run till the provided condition we setup the condition but on the other hands in while loop we only tell the loop to run till the specific condition we dont provide the steps we only give the start and end point
+
+
+9. Data Structures
+   
+   There are basic 4 types of data Structures
+   4 terminology
+
+   (a) list
+        styntax ["" , "" , 23 , false ]
+        List are mautalble , odered , we can access them through indexing , we can slice
+
+        Methods on lists
+        1. append(): to add data in the end of list
+         
+        2. insert(): is used to add data any where you want in list on the bases of index were you want to insert insert(index , value)
+
+        3. extend(): to add multiple data in the end of list
+
+        
