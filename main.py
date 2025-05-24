@@ -267,3 +267,23 @@
 
 # ENCAPSULATION
 
+# _a protected attribute
+# this is only a naming convention
+
+
+# __a private
+
+# class Factory:
+#     __a = "pune"
+
+#     def show(self):
+#         print(Factory.__a)
+
+# obj = Factory()
+# obj.show()
+
+# abstracted
+
+# hide unnecessary details
+
+# library from ABC                      
