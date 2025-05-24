@@ -24,7 +24,7 @@
       for-example : 0.32 , 22.99 , 1/2 , 34/3
       
    3. Complex 
-      to add a imagnery value we use complex data type 
+      to add a imaginy value we use complex data type 
 
       for-example : a = 34i 
 
